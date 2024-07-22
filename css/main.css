@@ -1,0 +1,27 @@
+
+
+body {
+    background-image: url(../img/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.background {
+    width: 950px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border: 5px solid;
+    border-color: rgba(2, 20, 10, 0.884);
+}
+
+.image {
+    width: 950px;
+    margin-bottom: -4px;
+}
