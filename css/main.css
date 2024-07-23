@@ -13,15 +13,32 @@ body::-webkit-scrollbar {
 }
 
 .background {
-    width: 950px;
+    width: 49.9%;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 5%;
-    border: 5px solid;
-    border-color: rgba(2, 20, 10, 0.884);
 }
 
 .image {
-    width: 950px;
+    width: 100%;
     margin-bottom: -4px;
+}
+
+@media screen and (max-width: 390px) {
+    .background {
+        margin-top: -3%;
+        margin-left: -3%;
+        margin-bottom: -3%;
+        width: 105.5%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .background {
+        border: 4px solid;
+    }
 }
